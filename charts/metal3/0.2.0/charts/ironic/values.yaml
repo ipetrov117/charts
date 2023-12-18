@@ -87,6 +87,8 @@ podAnnotations: {}
 podSecurityContext: {}
   # fsGroup: 2000
 
+securityContext: {}
+
 service:
   type: NodePort
   annotations: {}
