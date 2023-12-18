@@ -44,10 +44,8 @@ serviceAccount:
 
 podAnnotations: {}
 
-podSecurityContext:
+securityContext:
   runAsUser: 11000
-
-securityContext: 
   allowPrivilegeEscalation: false
   capabilities:
     drop:
