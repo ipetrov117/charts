@@ -36,12 +36,12 @@ podSecurityContext:
 
 securityContext:
   allowPrivilegeEscalation: false
-    capabilities:
-      drop:
-      - ALL
-    seccompProfile:
-      type: RuntimeDefault
-    runAsNonRoot: true
+  capabilities:
+    drop:
+    - ALL
+  seccompProfile:
+    type: RuntimeDefault
+  runAsNonRoot: true
 
 # Password for the mariadb ironic user
 password: ""
